@@ -143,18 +143,36 @@ nav ul {
     0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
-.mult {
-}
+
+footer {
+    width: 100%;
+    padding: 1.2rem;
+    background-color: var(--texte);
+    border-radius: var(--rayon);
+    margin: 1rem auto;
+    color: var(--texte-clair);
+  }
 
 @media (min-width: 375px) {
   body {
     padding: 0 2rem;
   }
 
-  section {
+  section,
+  footer {
     max-width: 1200px;
     margin-inline: auto;
   }
+
+  footer {
+    width: 100%;
+    padding: 1.2rem;
+    background-color: var(--texte);
+    border-radius: var(--rayon);
+    margin: 1rem auto;
+    color: var(--texte-clair);
+  }
+
   .fizzbuzz-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
